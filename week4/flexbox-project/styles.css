@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+:root {
+  --backgroundColor1: rgb(226, 133, 37);
+  --backgroundColor2: rgb(1, 105, 114);
+  --backgroundColor3: rgb(0, 64, 63);
+  --fontFamily1: "Big Shoulders Display", cursive;
+  --fontFamily2: "Lexend Deca", sans-serif;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#generalCont {
+  background-color: hsl(0, 0%, 95%);
+  margin: auto;
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px 50px 0px; 
+  margin-top: 110px;
+}
+#container {
+  display: flex;
+  margin: auto;
+}
+.cont1 {
+  background-color: var(--backgroundColor1);
+  position: relative;
+  padding: 20px;
+}
+.cont2 {
+  background-color: var(--backgroundColor2);
+  padding: 20px;
+}
+.cont3 {
+  background-color: var(--backgroundColor3);
+  padding: 20px;
+}
+.headings {
+  color: hsl(0, 0%, 95%);
+  padding-bottom: 10px;
+  font-size: 15px;
+  font-family: var(--fontFamily1);
+  width: 50%;
+}
+.parags {
+  font-size: 0.09px;
+  font-weight: 0.5px;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 2px 2px 20px 2px;
+}
+button {
+  padding: 8px;
+  border-radius: 15px;
+  width: 100px;
+  border: 1.5px solid white;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  color: hsl(0, 0%, 95%);
+  margin-bottom: 30px;
+  justify-items: center;
+  font-family: var(--fontFamily2);
+  font-size: 10px;
+}
+section{
+  background-color: red;
+  margin: auto;
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 0px 50px 50px; 
+  margin-top: 110px;
+}
+.topTop{
+  height: 50%;
+  width: 80%;
+  display: flex;
+  margin-bottom: 20px;
+}
+.topTopOrange{
+  background-color: orange;
+  width: 60%;
+}
+.topTopYellow{
+  background-color: yellow;
+  width: 40%;
+  margin-left: 12px;
+}
+.topBottom{
+  height: 60%;
+  width: 80%;
+  display: flex;
+}
+.topBottomGreen{
+  width: 50%;
+  background-color: green;
+}
+.topBottomBlues{
+  width: 50%;
+  height: 100%;
+  margin-left: 12px;
+  display: grid;
+}
+.topBottomBlue1{
+  background-color: rgb(49, 49, 141);
+  width: 100%;
+}
+.topBottomBlue2{
+  background-color: rgb(49, 49, 141);
+  width: 100%;
+  margin-top: 12px;
+}
+
+/* Smartphones Mobiles B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 848px) {
+  
+#generalCont{
+  width: 100%;
+}
+section{
+  width: 100%;
+  padding: 50px 0px 50px 0px;
+}
+}

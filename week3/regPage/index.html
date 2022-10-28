@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h2>New to Zuri!</h2>
+  <p>Register <a href="#input">here</a> to be a member
+  <p>
+
+  <form action="/loginPage.html">
+    <div class="container">
+      <label>First Name</label>
+      <input type="text" id="input" placeholder="enter your first name" style="margin: 15px 5px 10px 0px;"><br>
+
+      <label>Last Name</label>
+      <input type="text" placeholder="enter your last name" style="margin: 15px 5px 10px 0px;"><br>
+
+      <label>Phone No</label>
+      <input type="text" placeholder="(000) 000-0000" style="margin:15px 5px 10px 4px ;"><br>
+
+      <label>Email</label>
+      <input type="text" placeholder="example john@gmail.com" name="email" id="email" required
+        style="margin:15px 5px 10px 35px ;">
+      <div class="gender">
+        <label>Select Gender:
+          <input type="radio" name="gender" value="male" required>Male
+        </label>
+        <label>
+          <input type="radio" name="gender" value="female" required>Female
+        </label>
+
+      </div>
+      <label for="birthday">Date of birth:</label>
+      <input type="date" id="birthday" name="birthday"><br>
+      <label for="favcolor">Favourite Color:</label>
+      <input type="color" id="favcolor" name="favcolor">
+      <button type="submit" class="reg"> Register</button>
+    </div>
+  </form>
+
+
+
+
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
